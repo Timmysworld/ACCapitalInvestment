@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: #003963; */
+}
+.h-container{
+    background-image: url(/assets/images/heroimg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;  
+    background-blend-mode: overlay;
+}
+
+.hero-img{
+    transform: scaleX(-1);
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    backdrop-filter: blur(4px);
+
+
+}
+.nav-logo{
+    width:50%;
+    padding: 2px;
+}
+.logo{
+    height: 25%;
+    width: 25%;
+    padding: 10px
+}
+.nav-links{
+    width: 50%;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+li{
+    font-size: 1.2rem;
+}
+
+/* ABOUT SECTION  */
+.about{
+    margin-right: 20px;
+    height: 55vh;
+}
+
+.about-text{
+    backdrop-filter: grayscale(100%);
+}
+
+/* Our Products */
+.product-group{
+    padding: 20px;
+    width: 100vw;
+    display: flexbox;
+
+
+}
+.real-estate, .insurance{
+    display: flex;
+    width: 75%;
+    margin: 0 auto;
+    align-items: center;
+}
+.insurance{
+    flex-direction: row-reverse;
+    
+}
+.info{
+    padding: 10px;
+}
+.our-solutions{
+    background-image: linear-gradient(180deg, rgb(217,238,251),rgb(221,243,254));
+    height: 50%;
+}
