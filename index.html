@@ -11,21 +11,48 @@
     <link rel="stylesheet" href="style.css">
     <!-- BOOTSTRAP  -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    
     <!-- FONTS -->
-    <!-- ICONS -->
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
 
 </head>
 
 <body>
-    <div class="h-container">
-        <div class="navbar fixed-top">
-            <div class="nav-logo">
-                <img class="logo" src="/assets/images/ACCapitalLogo.png" alt="AC Capital Logo" srcset="">
+    <div class="hero">
+        <nav class="fixed-top navbar navbar-expand-sm ">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img class="logo" src="/assets/images/ACCapitalLogo.png" alt="AC Capital Logo" srcset=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#about">Company</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#products">Products</a> 
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#Solutions">Our Solutions</a> 
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact">Contact</a> 
+                            </li>
+                        </ul>
+                </div>
             </div>
-            <div class="nav-links">
+        </nav>
+        <!-- <div class="navbar fixed-top bg-body-tertiary container-fluid">
+            <div class="nav-logo">
+                <a href="#"><img class="logo navbar-brand" src="/assets/images/ACCapitalLogo.png" alt="AC Capital Logo" srcset=""></a>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="nav-links collapse navbar-collapse"">
                 <ul>
                     <li>Company</li>
                     <li>Products</li>
@@ -33,7 +60,7 @@
                     <li>Contact</li>
                 </ul>
             </div>
-        </div>
+        </div> -->
 
         <div class="container  col-xxl-8 w-100 px-2 pt-5">
             <div class="row mt-5 flex-lg-row-reverse align-items-center g-5 w-100">
@@ -49,36 +76,33 @@
                         labore, iusto quisquam rem rerum voluptate recusandae quidem blanditiis nisi fugit repudiandae
                         voluptatem veniam.</p>
                     <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                        <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Contact</button>
+                        <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Book Appointment</button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <section id="about" class="about">
-        <div class="container w-100 col-xxl-8 px-4 py-2">
+        <div class="container w-50 col-xxl-8 px-4 py-2">
             <div class="row flex-lg-row align-items-center g-5 py-5">
                 <div class="about-text">
                     <h1 class="display-5 fw-bold lh-1 mb-3 text-center">About</h1>
-                    <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates,
-                        perferendis dolorem. Quod repudiandae eum corporis sapiente et, fuga praesentium exercitationem
-                        repellat rerum minus vero ullam molestias ipsum sed non cum quo asperiores delectus consectetur!
-                        Id ut labore, iusto quisquam rem rerum voluptate recusandae quidem blanditiis nisi fugit
-                        repudiandae voluptatem veniam.</p>
+                    <p>AC Capital Investments is a multifaceted company. We are a real estate business who specializes in development and investment properties who prides itself on responding to our clients questions and needs in a timely and fashionable manner. We purchase properties for our portfolio making selling your home or property a smooth experience and easy transaction. Whether you're facing foreclosure, behind on taxes, or have extreme damage to your property, we will buy it cash as is.If you want to avoid realtor commission, reduce closing costs, and sell quickly </p>
+                    <p>At AC Capital we also specializes in life insurance services such as term life and permanent life insurance products like whole life, final expense and others. Our goal is to provide our clients with the best service and products towards having a strong financial foundation . We make it a priority to understand where you currently are financially and what your goals are to help you choose the best products. We focus on educating you on utilizing life insurance as a tool not only to protect your family but your assets as well!</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="products">
-        <div class="container title">
+    <section id="products" class="products">
+        <div class="container col-xxl-8 title">
             <h2 class="text-center fw-bold">Our Products</h2>
             <p class="text-center">With pride and care for each of our clients. AC Capital is committed to maintaining a
                 professional presence that exceeds expectations. </p>
         </div>
         <div class="product-group">
             <div class="real-estate">
-                <img src="https://placehold.jp/400x400.png" alt="">
+                <img src="/assets/images/AdobeStock_271277076_Preview.jpeg" alt="" width="430" height="400">
                 <div class="real-estate-text">
                     <h3 class="p-2">Real Estate</h3>
                     <p class="info">AC Capital Investments is a full service real estate development and investment
@@ -94,7 +118,7 @@
                 </div>
             </div>
             <div class="insurance">
-                <img src="https://placehold.jp/400x400.png" alt="">
+                <img src="/assets/images/AdobeStock_101905497_Preview.jpeg" alt="" width="430" height="400">
                 <div class="insurrance-text">
                     <h3 class="p-2">Insurance</h3>
                     <p>Did you know life insurance can benefit you while you still enjoying life? </p>
@@ -115,10 +139,99 @@
         <p class="text-center">With pride and care for each of our clients. AC Capital is committed to maintaining a
             professional presence that exceeds expectations. </p>
         <div class="solution-box">
-            <span class="material-symbols-outlined">manage_accounts</span>
+            <div class="icons">
+                <div class="icon-box box1">
+                    <img class="icon"src="/assets/icons/001-light-bulb.png"></img>
+                    <p>Innovation</p>
+                    <img class="icon"src="/assets/icons/002-badge.png"></img>
+                    <p>Professional</p>
+                </div>
+                <div class="icon-box box2">
+                    <img class="icon"src="/assets/icons/003-management.png"></img>
+                    <p>Managed Accounts</p>
+                </div>
+                <div class="icon-box box3">
+                    <img class="icon"src="/assets/icons/004-deal.png"></img>
+                    <p>Trust</p>
+                    <img class="icon"src="/assets/icons/005-financial.png"></img>
+                    <p>Growth</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="faq-container">
+        <div class="faq-header">
+            <h2>Frequently Asked Questions </h2>
+        </div>
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Accordion Item #1
+                    </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Accordion Item #2
+                    </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Accordion Item #3
+                    </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section id="contact" class="contact-box">
+        <div class="contact-container">
+            <h2 class="text-center">Contact </h2>
+            <form action="" method="post">
+                <div class="mb-3">
+                    <label for="exampleInputName1" class="form-label">Name:</label>
+                    <input type="name" class="form-control" id="exampleInputName1" aria-describedby="nameHelp">
+                    <div id="nameHelp" class="form-text"></div>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Email:</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Message:</label>
+                    <textarea rows="5" cols="10" class="form-control" aria-label="With textarea"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+
+            </form>
         </div>
 
     </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
