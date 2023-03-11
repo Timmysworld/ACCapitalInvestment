@@ -4,9 +4,9 @@
     box-sizing: border-box;
     /* background-color: #003963; */
 }
-/* body{
-    padding-top: 56px;
-} */
+p{
+    margin-bottom: 0!important;
+}
 section{
     padding-top: 120px;
     padding-bottom: 62px;
@@ -104,9 +104,71 @@ li{
 
 .contact-container{
     width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;   
+}
+.contact-btn{
     margin: 0 auto;
-    
 }
-form{
-    padding: 10px;
+
+.footer{
+    margin-top: 0!important;
 }
+.nav{
+    flex-wrap: nowrap!important;
+}
+
+/* MEDIA QUERIES  */
+
+@media screen and (max-width: 768px) {
+    .herobox{
+        display: none;
+    }
+    .btn{
+        margin-bottom: 7px;
+    }
+    .navbar-nav{
+        margin-left: 0px!important;
+    }
+    .real-estate, .insurance{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .real-estate>img, .insurance>img{
+        width: 230px;
+        height: 200px;
+    }
+    .title{
+        text-align: center;
+        padding: 5px;
+    }
+    .our-solutions>p{
+        padding: 10px;
+    }
+    .icon{
+        width: 45px;
+        height: 45px;
+    }
+    .icon-box>p{
+        font-size: .7rem;
+    }
+    .box2>p{
+        margin-top: -70px;
+    }
+    .nav-item{
+        font-size: 1rem!important;
+    }
+
+}
+
+@media screen and (max-width: 1024px){
+    .navbar-nav{
+        margin-left: 350px;
+    }
+    .nav{
+        flex-wrap: nowrap!important;
+    }
+}
+
