@@ -18,9 +18,6 @@ section{
     background-blend-mode: overlay;
 }
 
-.hero-img{
-    transform: scaleX(-1);
-}
 .navbar{
     transition: all 0.5s;
 }
@@ -55,7 +52,7 @@ li{
 }
 .real-estate, .insurance{
     display: flex;
-    width: 75%;
+    width: 100%;
     margin: 0 auto;
     align-items: center;
 }
@@ -122,6 +119,9 @@ li{
 /* MEDIA QUERIES  */
 
 @media screen and (max-width: 768px) {
+    .navbar-nav{
+        background-color: white;
+    }
     .herobox{
         display: none;
     }
