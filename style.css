@@ -16,7 +16,9 @@ section{
     background-repeat: no-repeat;
     background-size: cover;  
     background-blend-mode: overlay;
+    
 }
+
 
 .navbar{
     transition: all 0.5s;
@@ -117,7 +119,12 @@ li{
 }
 
 /* MEDIA QUERIES  */
-
+/* @media  screen and (max-width: 375) {
+    .hero-text-box{
+        margin-top: 20px;
+    }
+    
+} */
 @media screen and (max-width: 768px) {
     .navbar-nav{
         background-color: white;
